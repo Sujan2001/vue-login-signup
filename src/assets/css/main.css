@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+background-image: url('https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+background-size: cover;
+  display: flex;
+  font-weight: 400;
+}
+.overflow{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+body,
+html,
+.App,
+.vue-tempalte,
+.vertical-center {
+  width: 100%;
+  overflow: hidden;
+}
+
+.navbutton{
+  margin: 0px 10px;
+}
+.navbar
+{
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2); 
+}
+.navbar-light {
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.vertical-center {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inner-block {
+  width: 450px;
+  margin: auto;
+  background: rgba(255,255,255);
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 5px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+.form-group{
+  margin: 8px 0px;
+}
+
+.button-div{
+  display: flex;
+  justify-content: center ;
+  margin-top: 20px;
+}
+
+.vertical-center .form-control:focus {
+  border-color: #2554ff;
+  box-shadow: none;
+}
+
+.vertical-center h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+label {
+  font-weight: 500;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7a7a7a !important;
+  margin: 0;
+  transition: all 0.36s ease-in;
+}
+.forgot-password a:hover{
+  color: blue !important;
+}
+
+.forgot-password a {
+  color: #2554ff;
+}
